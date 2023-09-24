@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "build": {
-    "beforeBuildCommand": "pnpm run nx build @zkasten/web",
-    "beforeDevCommand": "pnpm run nx dev @zkasten/web",
+    "beforeBuildCommand": "pnpm nx build web",
+    "beforeDevCommand": "pnpm nx dev web",
     "devPath": "http://localhost:4200",
     "distDir": "../../dist/apps/web"
   },

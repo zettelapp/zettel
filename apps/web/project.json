@@ -1,9 +1,11 @@
 {
-  "name": "@zkasten/web",
+  "name": "web",
   "targets": {
     "build": {
       "executor": "@nx/vite:build",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/apps/web"
@@ -21,17 +23,36 @@
       "executor": "@nx/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "@zkasten/web:build"
+        "buildTarget": "web:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "@zkasten/web:build:development",
+          "buildTarget": "web:build:development",
           "hmr": true
         },
         "production": {
-          "buildTarget": "@zkasten/web:build:production",
+          "buildTarget": "web:build:production",
           "hmr": false
         }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "apps/web/**/*.{js,ts}"
+        ]
+      }
+    },
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/web/cypress.config.js",
+        "devServerTarget": "web:dev:development",
+        "testingType": "e2e"
       }
     }
   }

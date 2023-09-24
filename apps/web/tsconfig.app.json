@@ -6,7 +6,11 @@
     "ignoreDeprecations": "5.0",
     "isolatedModules": true,
     "sourceMap": true,
-    "types": ["svelte", "node", "vite/client"],
+    "types": [
+      "svelte",
+      "node",
+      "vite/client"
+    ],
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -19,7 +23,12 @@
     "src/**/*.ts",
     "src/**/*.js",
     "src/**/*.svelte",
-    "vite.config.mts"
+    "vite.config.mts",
+    "svelte.config.js",
+    "cypress.config.js"
   ],
-  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
+  "exclude": [
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ]
 }
