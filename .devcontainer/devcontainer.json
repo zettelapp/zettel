@@ -1,0 +1,14 @@
+{
+  "name": "ZKasten",
+  "remoteUser": "vscode",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "node": "20.7",
+    "rust": "1.72"
+  },
+  "containerEnv": {
+    "WEBKIT_DISABLE_COMPOSITING_MODE": "1",
+  }
+}
