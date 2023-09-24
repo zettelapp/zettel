@@ -16,7 +16,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "checkJs": true,
-    "allowJs": true
+    "allowJs": true,
+    "composite": true
   },
   "include": [
     "src/**/*.d.ts",
@@ -29,6 +30,7 @@
   ],
   "exclude": [
     "src/**/*.spec.ts",
-    "src/**/*.test.ts"
+    "src/**/*.test.ts",
+    "e2e/**/*"
   ]
 }
