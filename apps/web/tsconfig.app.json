@@ -16,8 +16,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "checkJs": true,
-    "allowJs": true,
-    "composite": true
+    "allowJs": true
   },
   "include": [
     "src/**/*.d.ts",
