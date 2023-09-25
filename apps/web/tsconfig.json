@@ -25,10 +25,10 @@
     "**/*.js",
     "**/*.jsx",
     "**/*.svelte",
-    "cypress.config.ts",
     "postcss.config.ts",
-    "svelte.config.js",
     "tailwind.config.ts",
-    "vite.config.mts"
+    "vite.config.mts",
+    "svelte.config.js",
+    "cypress.config.mjs"
   ]
 }

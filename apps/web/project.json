@@ -50,7 +50,7 @@
     "e2e": {
       "executor": "@nx/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/web/cypress.config.js",
+        "cypressConfig": "apps/web/cypress.config.mjs",
         "devServerTarget": "web:dev:development",
         "testingType": "e2e"
       }
