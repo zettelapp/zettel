@@ -1,32 +1,24 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "moduleResolution": "node",
-    "target": "esnext",
-    "ignoreDeprecations": "5.0",
     "isolatedModules": true,
     "sourceMap": true,
-    "types": [
-      "svelte",
-      "node",
-      "vite/client"
-    ],
-    "strict": false,
+    "composite": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "checkJs": true,
-    "allowJs": true
+    "allowJs": true,
+    "strict": false,
+    "moduleResolution": "node",
+    "target": "esnext",
+    "ignoreDeprecations": "5.0",
+    "types": [
+      "svelte",
+      "node",
+      "vite/client"
+    ]
   },
-  "include": [
-    "src/**/*.d.ts",
-    "src/**/*.ts",
-    "src/**/*.js",
-    "src/**/*.svelte",
-    "vite.config.mts",
-    "svelte.config.js",
-    "cypress.config.js"
-  ],
   "exclude": [
     "src/**/*.spec.ts",
     "src/**/*.test.ts",

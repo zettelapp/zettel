@@ -1,8 +1,15 @@
 {
   "root": true,
   "ignorePatterns": ["**/*"],
-  "plugins": ["@nx"],
-  "extends": ["plugin:@nx/typescript", "xo", "xo-typescript/space"],
+  "plugins": ["@nx", "unicorn", "prettier"],
+  "extends": [
+    "plugin:@nx/typescript",
+    "prettier",
+    "xo",
+    "xo-typescript/space",
+    "plugin:svelte/recommended",
+    "plugin:prettier/recommended"
+  ],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],

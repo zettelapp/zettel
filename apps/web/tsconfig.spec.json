@@ -1,6 +1,8 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
     "outDir": "../../dist/apps/desktop",
     "types": [
       "vitest/globals",
@@ -12,5 +14,6 @@
   "types": [
     "@nx/react/typings/cssmodule.d.ts",
     "@nx/react/typings/image.d.ts"
-  ]
+  ],
+  "files": []
 }

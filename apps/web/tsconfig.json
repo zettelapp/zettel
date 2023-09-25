@@ -1,4 +1,5 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "jsx": "react-jsx",
     "allowJs": false,
@@ -10,15 +11,6 @@
       "vitest"
     ]
   },
-  "files": [],
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.jsx",
-    "**/*.svelte",
-    "**/*.mts",
-  ],
   "references": [
     {
       "path": "./tsconfig.app.json"
@@ -27,5 +19,16 @@
       "path": "./tsconfig.spec.json"
     }
   ],
-  "extends": "../../tsconfig.base.json"
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.svelte",
+    "cypress.config.ts",
+    "postcss.config.ts",
+    "svelte.config.js",
+    "tailwind.config.ts",
+    "vite.config.mts"
+  ]
 }
