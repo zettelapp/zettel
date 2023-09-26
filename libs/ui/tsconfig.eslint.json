@@ -7,9 +7,6 @@
     "**/*.ts",
     "**/*.js",
     "**/*.svelte",
-    "postcss.config.ts",
-    "tailwind.config.ts",
-    "vite.config.mts",
-    "svelte.config.mjs"
+    "vite.config.mts"
   ]
 }

@@ -1,1 +1,1 @@
-export * from './lib/ui';
+export { default as TestComponent } from './TestComponent.svelte';
