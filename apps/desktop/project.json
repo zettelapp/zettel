@@ -1,0 +1,22 @@
+{
+  "name": "desktop",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-script",
+      "defaultConfiguration": "development",
+      "options": {
+        "script": "tauri dev"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "web:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "web:build:production",
+          "hmr": false
+        }
+      }
+    }
+  }
+}
