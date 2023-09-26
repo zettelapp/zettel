@@ -8,7 +8,6 @@
     "importHelpers": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "declaration": false,
     "rootDir": ".",
     "baseUrl": ".",
     "moduleResolution": "node",

@@ -17,7 +17,9 @@
 			"svelte.svelte-vscode",
 			"rust-lang.rust-analyzer",
 			"dbaeumer.vscode-eslint",
-			"bradlc.vscode-tailwindcss"
+			"bradlc.vscode-tailwindcss",
+			"nrwl.angular-console",
+			"esbenp.prettier-vscode"
 		]
 	}
 }

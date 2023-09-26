@@ -21,14 +21,7 @@
   ],
   "include": [
     "**/*.ts",
-    "**/*.tsx",
     "**/*.js",
-    "**/*.jsx",
-    "**/*.svelte",
-    "postcss.config.ts",
-    "tailwind.config.ts",
-    "vite.config.mts",
-    "svelte.config.js",
-    "cypress.config.mjs"
+    "**/*.svelte"
   ]
 }
