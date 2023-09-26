@@ -2,7 +2,6 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "composite": true,
-    "outDir": "../../dist/apps/desktop",
     "types": [
       "vitest/globals",
       "vitest/importMeta",
@@ -13,6 +12,5 @@
   "types": [
     "@nx/react/typings/cssmodule.d.ts",
     "@nx/react/typings/image.d.ts"
-  ],
-  "files": []
+  ]
 }

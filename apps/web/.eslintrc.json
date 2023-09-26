@@ -6,6 +6,6 @@
     "!**/*"
   ],
   "parserOptions": {
-    "project": "apps/web/tsconfig.json"
+    "project": "apps/web/tsconfig.eslint.json"
   }
 }

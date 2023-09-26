@@ -2,14 +2,10 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "isolatedModules": true,
-    "sourceMap": true,
     "composite": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "checkJs": true,
     "allowJs": true,
-    "strict": false,
     "moduleResolution": "node",
     "target": "esnext",
     "ignoreDeprecations": "5.0",
@@ -21,7 +17,6 @@
   },
   "exclude": [
     "src/**/*.spec.ts",
-    "src/**/*.test.ts",
     "e2e/**/*"
   ]
 }

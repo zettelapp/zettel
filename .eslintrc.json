@@ -12,7 +12,7 @@
   ],
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.svelte", "*.mts", "*.mjs"],
       "rules": {
         "@nx/enforce-module-boundaries": [
           "error",
