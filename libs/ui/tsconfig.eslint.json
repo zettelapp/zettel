@@ -10,7 +10,6 @@
     "postcss.config.ts",
     "tailwind.config.ts",
     "vite.config.mts",
-    "svelte.config.mjs",
-    "cypress.config.mjs"
+    "svelte.config.mjs"
   ]
 }
