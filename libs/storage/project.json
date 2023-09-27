@@ -1,14 +1,14 @@
 {
-  "name": "ui",
+  "name": "storage",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/ui/src",
+  "sourceRoot": "libs/storage/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/libs/ui"
+        "outputPath": "dist/libs/storage"
       }
     },
     "test": {
@@ -24,7 +24,7 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "apps/ui/**/*.{js,jsx,mjs,ts,tsx,mts}"
+          "apps/storage/**/*.{js,jsx,mjs,ts,tsx,mts}"
         ]
       }
     }

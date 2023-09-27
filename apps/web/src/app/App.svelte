@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { TestComponent } from '@zettel/ui'
+	import { testFunction } from '@zettel/storage'
+	
+	testFunction()
 </script>
 
-<TestComponent />
+ddd

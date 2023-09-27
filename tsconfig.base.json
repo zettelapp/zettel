@@ -16,7 +16,8 @@
     "module": "esnext",
     "lib": ["es2020", "dom"],
     "paths": {
-      "@zettel/ui": ["libs/ui/src/index.ts"]
+      "@zettel/ui": ["libs/ui/src/index.ts"],
+      "@zettel/storage": ["libs/storage/src/index.ts"]
     }
   }
 }

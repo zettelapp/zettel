@@ -43,7 +43,7 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "apps/web/**/*.{js,ts}"
+          "apps/web/**/*.{js,jsx,mjs,ts,tsx,mts}"
         ]
       }
     },

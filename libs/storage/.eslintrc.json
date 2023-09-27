@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "../../.eslintrc.json"
+  ],
+  "ignorePatterns": [
+    "!**/*"
+  ],
+  "parserOptions": {
+    "project": "libs/storage/tsconfig.eslint.json"
+  }
+}
