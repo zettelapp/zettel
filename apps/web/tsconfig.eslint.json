@@ -5,7 +5,9 @@
   },
   "include": [
     "**/*.ts",
+    "**/*.tsx",
     "**/*.js",
+    "**/*.jsx",
     "**/*.svelte",
     "postcss.config.ts",
     "tailwind.config.ts",
