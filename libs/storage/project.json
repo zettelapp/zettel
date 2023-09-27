@@ -16,7 +16,7 @@
       "outputs": ["{options.reportsDirectory}"],
       "options": {
         "passWithNoTests": true,
-        "reportsDirectory": "../../coverage/libs/ui"
+        "reportsDirectory": "../../coverage/libs/storage"
       }
     },
     "lint": {
